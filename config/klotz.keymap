@@ -154,10 +154,10 @@
 
         CONTROLS {
             bindings = <
-&kp PRINTSCREEN  &trans        &trans          &kp ESCAPE        &trans         &kp PAGE_UP    &kp HOME       &kp UP_ARROW  &kp END          &trans
-&kp LEFT_ALT     &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp RIGHT_ALT  &kp PAGE_DOWN  &kp LEFT       &kp DOWN      &kp RIGHT_ARROW  &trans
-&trans           &trans        &trans          &kp TAB           &trans         &trans         &kp BACKSPACE  &trans        &trans           &trans
-                                               &trans            &trans         &trans         &trans
+&kp PRINTSCREEN  &trans        &trans          &kp ESCAPE        &trans         &kp PAGE_UP        &kp HOME       &kp UP_ARROW  &kp END          &kp CAPSLOCK
+&kp LEFT_ALT     &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp RIGHT_ALT  &kp PAGE_DOWN      &kp LEFT       &kp DOWN      &kp RIGHT_ARROW  &trans
+&trans           &trans        &trans          &kp TAB           &trans         &kp LC(BACKSPACE)  &kp BACKSPACE  &kp DELETE    &trans           &trans
+                                               &trans            &trans         &trans             &trans
             >;
         };
 
